@@ -33,6 +33,15 @@ The parameters 𝜆, 𝜇, and 𝑐 are learned from the data.
 - λ (Lambda): Controls the width of the probability density curve
 - c: Scaling constant that ensures the probability density function is valid
 
+## Result 
+The parameters of the probability density function were learned from the transformed NO₂ data using maximum likelihood estimation.
+The estimated values are:
+μ (Mean) = 25.805243726878015
+σ² (Variance) = 342.50798829851453
+λ (Lambda) = 0.0014598199664885554
+c = 0.021556324533226836
+These parameters define the Gaussian-style probability density function that approximates the distribution of the transformed variable 𝑧.
+
 ## Result Graph
 A histogram of the transformed variable 𝑧 represents the empirical distribution of the data.
 The learned probability density function is overlaid to visualize how well the theoretical model approximates the observed values.
